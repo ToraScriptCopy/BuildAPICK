@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tora UI Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+  <div id="theme-toggle">🌞</div>
+  <nav id="sidebar">
+    <h2>Tora GUI Builder</h2>
+    <button id="add-toggle">Add Toggle</button>
+    <button id="add-button">Add Button</button>
+    <button id="add-slider">Add Slider</button>
+    <button id="add-textbox">Add TextBox</button>
+    <button id="add-label">Add Label</button>
+  </nav>
+  <main id="main-area"></main>
+  <footer id="actions">
+    <button id="generate">Generate Script</button>
+    <button id="check">Check for Problems</button>
+  </footer>
+  <section id="code-section">
+    <label for="script-output">Generated Lua Script:</label>
+    <textarea id="script-output" readonly></textarea>
+    <a id="download-link">Download Script</a>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

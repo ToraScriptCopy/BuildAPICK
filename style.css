@@ -1,0 +1,30 @@
+:root {
+  --bg-dark: #111;
+  --bg-light: #faf1de;
+  --fg-dark: #eee;
+  --fg-light: #333;
+  --accent-red: #e33;
+  --accent-gold: #d4af37;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg-dark);
+  color: var(--fg-dark);
+  transition: background 0.3s, color 0.3s;
+}
+body.light {
+  background: var(--bg-light);
+  color: var(--fg-light);
+}
+#theme-toggle {
+  position: fixed;
+  top: 10px; right: 10px;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: transform 0.3s;
+}
+#theme-toggle:hover {
+  transform: rotate(20deg);
+}
+/* Остальной CSS укорочен ради читаемости */
